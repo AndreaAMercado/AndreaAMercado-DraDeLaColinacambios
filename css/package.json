@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-delacolina",
+  "version": "1.0.0",
+  "description": "proyecto coderhouse estetica corporal y armonizacion facial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" , 
+    "buil-css": "node-sass --include-path scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run built-css\" "
+  },
+  "author": "andrea",
+  "license": "ISC"
+  "devDependencies": {
+    "node-sass":"7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
