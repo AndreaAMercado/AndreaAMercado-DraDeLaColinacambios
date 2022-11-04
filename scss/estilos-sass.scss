@@ -5,6 +5,9 @@ $primary: rgb(192, 67, 186);
 $font-family-sans-serif        var(--#{$prefix}font-sans-serif)
 $navbar-light-color rgb(192, 67, 186);
 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
